@@ -1,6 +1,6 @@
 # Surveillance
 
-- Headnut | Demian.W - Mittwoch, 21. 03. 2024
+- Headnut | Demian - Mittwoch, 21. 03. 2024
 
 ----
 
