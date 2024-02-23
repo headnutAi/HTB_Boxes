@@ -41,13 +41,13 @@ Theres a lot of useless Information in this file. But after going through the fi
 #### Bruteforcing Matthew's password
 Using `hash-identifier` one can determine that its a `SHA-256` hash.
 
-To crack the hash i used `hashcat`. After some time i had the password of Matthew: `starcraft122490`. The password only works for SSH access
+To crack the hash i used `hashcat`. After some time i had the password of Matthew: `starcraft122490`. The password only works for SSH access so you will have to use the following command.
 - `hashcat -m 1400 Matthew.txt /usr/share/wordlists/rockyou.txt`
 
 #### Connection with ssh
 We can now connect with the username and password previously found. The user flag can be found under `~/user.txt`.
 
-One can ran `linpeas.sh` once again, under the section `Analyzing Backup Manager Files` one will find a configuration for `ZoneMinder`. After a bit of research I found out `ZoneMinder` had a dashboard which was accessable under 127.0.0.1:2222. I forwarded the port using `ssh -L 2222:127.0.0.1:8080 matthew@surveillance.htb`.
+One can run `linpeas.sh` once again, under the section `Analyzing Backup Manager Files` one will find a configuration for `ZoneMinder`. After a bit of research I found out `ZoneMinder` had a dashboard which was accessable under 127.0.0.1:2222. I forwarded the port using `ssh -L 2222:127.0.0.1:8080 matthew@surveillance.htb`.
 
 Accessing `127.0.0.1:2222`, we can find a login form for ZoneMinder. But none of the standard credentials or even matthews login works.
 
