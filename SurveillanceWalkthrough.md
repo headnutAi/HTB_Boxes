@@ -62,4 +62,4 @@ Using the version and the knowledge of google one can find that you can use the 
   As soon as you get root permission you can generate a reverse bash -i shell with which you can get further access especially to the /root directory in which the root flag lies in.
 
 #### Conclusion
-It was an Interisting machine to pwn tho it mainly relied on the missed updates by the creators which are ofc intended. Sadly the machine/shell was very unresponsive/laggy , which it to be expected for a free service but it still was pretty annoying to hack with. So i hope someday [HackTheBox](https://app.hackthebox.com) may improve their machine capabilities. GET PWNED BOZO!! Headnut was here!1!
+It was an Interisting machine to pwn, tho it mainly relied on the missed updates by the creators which are ofc intended. Sadly the machine/shell was very unresponsive/laggy , which it to be expected for a free service but it still was pretty annoying to hack with. So i hope someday [HackTheBox](https://app.hackthebox.com) may improve their machine capabilities. GET PWNED BOZO!! Headnut was here!1!
